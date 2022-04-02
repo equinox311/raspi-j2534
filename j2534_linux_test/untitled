@@ -1,0 +1,5 @@
+from ctypes import *
+# either
+libc = cdll.LoadLibrary("j2534.so")
+# or
+#libc = CDLL("libc.so.6")
